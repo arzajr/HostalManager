@@ -1,0 +1,161 @@
+/* ==========================================================
+   RESET
+   Eliminamos márgenes y configuraciones por defecto
+========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* ==========================================================
+   VARIABLES
+   Colores principales del proyecto.
+========================================================== */
+
+:root{
+
+    --bg:#FAFAF8;
+
+    --fg:#1A1A1A;
+
+    --card:#FFFFFF;
+
+    --muted:#F0F0EE;
+
+    --muted-fg:#888884;
+
+    --secondary:#F4F4F2;
+
+    --border:rgba(0,0,0,.10);
+
+}
+
+
+/* ==========================================================
+   CONFIGURACIÓN GENERAL
+========================================================== */
+
+body{
+
+    background:var(--bg);
+
+    color:var(--fg);
+
+    font-family:'DM Sans',sans-serif;
+
+}
+
+
+/* ==========================================================
+   CONTENEDOR PRINCIPAL
+========================================================== */
+
+.wrapper{
+
+    max-width:390px;
+
+    margin:auto;
+
+    min-height:100vh;
+
+}
+
+
+/* ==========================================================
+   CABECERA
+========================================================== */
+
+.header{
+
+    padding:2.5rem 1.5rem;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.header__eyebrow{
+
+    font-size:11px;
+
+    text-transform:uppercase;
+
+    color:var(--muted-fg);
+
+}
+
+.header__title{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:2rem;
+
+}
+
+
+/* ==========================================================
+   BOTÓN PRINCIPAL
+========================================================== */
+
+.cta{
+
+    padding:1.5rem;
+
+}
+
+.btn-pill{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:999px;
+
+    cursor:pointer;
+
+    background:var(--fg);
+
+    color:white;
+
+}
+
+
+/* ==========================================================
+   DESCRIPCIÓN
+========================================================== */
+
+.description{
+
+    padding:1.5rem;
+
+}
+
+.description p{
+
+    color:var(--muted-fg);
+
+    line-height:1.7;
+
+}
+
+
+/* ==========================================================
+   MODAL
+   (Lo iremos desarrollando poco a poco)
+========================================================== */
+
+.modal-overlay{
+
+    display:none;
+
+}
+
+.modal-overlay.active{
+
+    display:flex;
+
+}
