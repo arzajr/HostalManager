@@ -1,4 +1,4 @@
-Hotel Restaurante Las Vegas
+## Hotel Restaurante Las Vegas
 
 Aplicación web desarrollada como proyecto personal para gestionar un hotel-restaurante.
 
@@ -7,5 +7,5 @@ Tecnologías:
 - CSS
 - JavaScript
 
-Estado:
-En desarrollo.
+## Estado:
+Proyecto en desarrollo.
