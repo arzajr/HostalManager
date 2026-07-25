@@ -22,3 +22,7 @@ Aparcamiento.
 Estación de tren.
 Camino de Santiago.
 Contacto.
+
+
+### Disponibilidad y reservas
+Crear un panel de administrador que permita crear nuevas reservas, y estas se actualicen en la base de datos y se muestren en la página web.

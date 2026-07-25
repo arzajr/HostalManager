@@ -4,10 +4,15 @@
 
 ### Añadido
 - Creación del proyecto.
+- Control de versiones con GIT.
 - Diseño inicial de la página principal.
-- Botón "Reservar habitación".
-- Modal para solicitar una reserva.
+- Páginas para restaurante, habitaciones e información.
+- Archivo ARQUITECTURA.md 
+- Estructuración del HTML.
+
 
 ### Pendiente
-- Separar CSS del HTML.
-- Separar JavaScript del HTML.
+- Diseño de las páginas Restaurante, Habitaciones e Información
+- ¿Qué contiene cada página? 
+- ¿Qué problemas resuelve cada página?
+
