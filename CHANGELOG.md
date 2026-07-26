@@ -11,8 +11,19 @@
 - Estructuración del HTML.
 
 
-### Pendiente
+# Pendiente
 - Diseño de las páginas Restaurante, Habitaciones e Información
 - ¿Qué contiene cada página? 
 - ¿Qué problemas resuelve cada página?
 
+
+## 25/07/2026
+
+### Añadido
+- Primera versión de restaurante.html
+
+# Pendiente
+
+- Recordar siempre qué preguntas responder con cada página  
+- Pensar en informacion o habitaciones
+- Pulir restaurante.html
